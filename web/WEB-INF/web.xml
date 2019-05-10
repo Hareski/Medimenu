@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         metadata-complete="true">
+
+    <!--IN-->
+    <servlet>
+        <servlet-name>IN</servlet-name>
+        <servlet-class>servlets.In</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>IN</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>IN</servlet-name>
+        <url-pattern>/in</url-pattern>
+    </servlet-mapping>
+
+    <!-- NUTRIMENTS -->
+    <servlet>
+        <servlet-name>Nutriments</servlet-name>
+        <servlet-class>servlets.Nutriments</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Nutriments</servlet-name>
+        <url-pattern>/nutriments</url-pattern>
+    </servlet-mapping>
+
+    <!-- GROUPES -->
+    <servlet>
+        <servlet-name>Groupes</servlet-name>
+        <servlet-class>servlets.Groupes</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Groupes</servlet-name>
+        <url-pattern>/groupes</url-pattern>
+    </servlet-mapping>
+
+    <!-- GROUPES -->
+    <servlet>
+        <servlet-name>Base</servlet-name>
+        <servlet-class>servlets.Base</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Base</servlet-name>
+        <url-pattern>/base</url-pattern>
+    </servlet-mapping>
+
+    <!--OUT-->
+    <servlet>
+        <servlet-name>Out</servlet-name>
+        <servlet-class>servlets.Out</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Out</servlet-name>
+        <url-pattern>/out</url-pattern>
+    </servlet-mapping>
+
+    <!--SAUVEGARDE-->
+    <servlet>
+        <servlet-name>Sauvegarde</servlet-name>
+        <servlet-class>servlets.Sauvegarde</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Sauvegarde</servlet-name>
+        <url-pattern>/sauvegarde</url-pattern>
+    </servlet-mapping>
+
+    <!--Nouvelle configuration-->
+    <servlet>
+        <servlet-name>NouvelleConfiguration</servlet-name>
+        <servlet-class>servlets.NouvelleConfiguration</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>NouvelleConfiguration</servlet-name>
+        <url-pattern>/nouvelleConfiguration</url-pattern>
+    </servlet-mapping>
+    <!--SRC-->
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.jpg</url-pattern>
+    </servlet-mapping>
+
+    <!--SRC-->
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.css</url-pattern>
+    </servlet-mapping>
+</web-app>

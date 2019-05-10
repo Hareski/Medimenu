@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+body{background-image: url("back.jpg");background-size: cover;margin:0;background-attachment: fixed;}
+section{margin-left: 30%; padding:5%; min-height: 100vh; font-family: 'Source Sans Pro', sans-serif; background-color: whitesmoke;}
+h1{font-size: 40px; font-weight: 700;}
+fieldset{margin-bottom: 20px;background-color: white;padding: 20px;}
+button{padding:20px; width: 100%;}
+legend{background-color: lightgray; padding:5px;}
+.code{padding: 5%; background-color: #1d1d1d ; color: aliceblue; font-family: 'DejaVu Sans Mono', monospace;}
+.menu{margin: 5%; padding: 5%; background-color: #ffdcc0; color: #0a0a0a;  font-family: 'Source Sans Pro', sans-serif; }
