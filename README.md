@@ -12,5 +12,8 @@ Voici quelques détails sur le fonctionnement :
 Ce projet a été testé avec le logiciel Tomcat 8. Une release avec un simple fichier .war est mis à disposition pour un déploiement rapide.
 Il faudra dans ce cas copier le contenu du dossier */data* du dépot dans */medimenu/* à la racine du serveur.
 
+
+<img width="1915" height="2013" alt="image" src="https://github.com/user-attachments/assets/a4901a1e-5953-473b-a8f2-7ce2758d1adc" />
+
 *Llivia LANGEVIN et Areski HIMEUR.*
 
